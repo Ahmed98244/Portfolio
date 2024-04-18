@@ -94,8 +94,12 @@
   
   .nav-item:nth-child(5) {
     transition-delay: 0.5s; }
+
     .nav-item:nth-child(6) {
       transition-delay: 0.6s; }
+
+      .nav-item:nth-child(7) {
+        transition-delay: 0.7s; }
 
 * {
   box-sizing: border-box; }
@@ -181,7 +185,26 @@ main {
     background: #515151;
     padding: 0.5rem;
     border-bottom: #eece1a 5px solid; }
-
+.bio .text {
+  color: #DDD;
+  font-size: 18px;
+}
+.about-info .job .tag {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+.about-info .job .tag:hover {
+  color: #eece1a;
+}
+.about-info .job .tag .fas {
+  margin-left: 5px;
+}
 .projects {
   display: grid;
   grid-gap: 0.7rem;
