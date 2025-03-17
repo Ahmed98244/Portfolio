@@ -371,10 +371,24 @@ main {
   display: flex;
 }
 .skills .skill-box .skill-progress ul li {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   font-size: 40px;
   color: #eece1a;
   align-items: center;
 }
+.job-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.job-header h3 {
+  margin: 0;
+}
+
+.job-image {
+  margin-left: 20px; /* Space between text and image */
+}
+
 /* end our skills  */
