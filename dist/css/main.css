@@ -316,7 +316,7 @@ main {
   padding: 60px 30px;
   background-color: #444;
   width: 80%;
-  height: 100vh;
+   height: 100vh;
   margin: 0 auto;
 }
 .skills h2 {
@@ -332,6 +332,9 @@ main {
 @media (max-width: 767px) { 
   .container-box {
     flex-direction: column;
+  }
+  .skills {
+      height: auto;
   }
 }
 .container-box .skills-1 {
@@ -356,7 +359,6 @@ main {
 }
 .skills .skill-box .skill-name {
   font-weight: bold;
-  width: 140px;
   line-height: 30px;
   color: #FFF;
   font-size: 20px;
@@ -376,6 +378,9 @@ main {
   font-size: 40px;
   color: #eece1a;
   align-items: center;
+}
+.skill-image {
+  margin-top: 50px;
 }
 .job-header {
   display: flex;
